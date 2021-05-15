@@ -1,0 +1,13 @@
+.red{
+    color:red;
+    background-color: aqua;
+}
+.changVal button{
+    text-align: left;
+    width: fit-content;
+    border-radius: 40px;
+    position: absolute;
+    top: 2%;
+    right: 4%;
+
+}

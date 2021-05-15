@@ -27,7 +27,68 @@
 .App-link {
   color: #61dafb;
 }
+/* my styling */
+.btn-wraper button{
+  background-color: red;
+  width: 150px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 0;
+  color: #fff;
+}
+.img-wraper img{
+  width: 100px;
+  margin-top: -10px;
+}
+.cart-wraper{
+  height: 100px;
+  width: 450px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+.item{
+  float: left;
+  display: inline-block;
+  width: 120px;
+  height: 70px;
+  padding: 20px;
+}
+.cart img{
+  width: 80px;
+  position: absolute;
+  top: 1%;
+  right: 1%;
+}
 
+/* todo*/
+.App .todoTable{
+  background-color: aqua;
+    margin: 20px 300px;
+    padding: 20px;
+}
+.todoTable h1{
+  margin: 20px 120px;
+}
+.todoTable input{
+  border-bottom: 1px;
+}
+.todoTable button{
+  border: none;
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 20px;
+  background-color: blue;
+}
+.btn-style button{
+  height: fit-content;
+  color: wheat;
+  background-color: black;
+  margin-right: 10px;
+}
+
+/* todo*/
+
+/*  my styling  */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +97,4 @@
     transform: rotate(360deg);
   }
 }
+
