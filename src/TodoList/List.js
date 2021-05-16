@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState,} from 'react'
 import ListItems from './ListItems'
+import {ContextApi} from './Context'
 
 function List() {
   const [state, setState]=useState([])
@@ -32,7 +33,9 @@ function List() {
         <button onClick={listOfItems}>+</button>
         {
           state.map((items, index)=>{
-            return <ListItems key={index} id={index} item={items} delete={delItem}/>
+            return <ContextApi.Provider key={index} value={{item:items, id:index, delet:delItem}}>
+              <ListItems/>
+            </ContextApi.Provider>
           })
         }
 
